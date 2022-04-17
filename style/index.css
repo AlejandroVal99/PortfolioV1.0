@@ -8,17 +8,17 @@
 
 @font-face {
   font-family: ttTravelsReg;
-  src: url("../../resources/font/TT Travels Next Regular.ttf") format("truetype");
+  src: url("../resources/font/TT Travels Next Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ttTravelsBold;
-  src: url("../../resources/font/TT Travels Next Bold.ttf") format("truetype");
+  src: url("../resources/font/TT Travels Next Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ttTravelsMed;
-  src: url("../../resources/font/TT Travels Next Medium.ttf") format("truetype");
+  src: url("../resources/font/TT Travels Next Medium.ttf") format("truetype");
 }
 
 * {
@@ -414,7 +414,7 @@ html {
 }
 
 .sentence__text a {
-  background-image: url("../../resources/images/heroBackground.jpg");
+  background-image: url("../resources/images/heroBackground.jpg");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -540,7 +540,7 @@ html {
 
 .together__row--colors {
   text-align: center;
-  background-image: url("../../resources/images/heroBackground.jpg");
+  background-image: url("../resources/images/heroBackground.jpg");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
