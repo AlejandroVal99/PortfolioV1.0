@@ -1,0 +1,79 @@
+.sentence2 {
+    position: relative;
+    background-color: var(--main-black);
+    padding: 2.5rem;
+    
+    
+
+    &__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--main-white);
+        font-size: 60px;
+        width: 80%;
+        text-align: center;
+        mix-blend-mode: difference;
+    }
+
+    &__circleBackground {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__imgBackground {
+        width: 40%;
+        object-fit: cover;
+       
+    }
+}
+
+@media(max-width:850px) {
+    .sentence2 {
+  
+    
+        padding: 1.5rem;
+        &__text {
+           
+            font-size: 48px;
+           
+        }
+    
+    
+        &__imgBackground {
+            width: 50%;
+            object-fit: cover;
+           
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .sentence2 {
+  
+    
+        
+        &__text {
+            left: 49%;
+            font-size: 32px;
+            width: 90%;
+           margin: 8px;
+        }
+    
+        &__circleBackground {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        &__imgBackground {
+            width: 50%;
+            object-fit: cover;
+           
+        }
+    }
+}

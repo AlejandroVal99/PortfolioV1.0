@@ -1,0 +1,54 @@
+.together {
+    background-color: var(--main-black);
+    font-family: ttTravelsReg;
+    font-size: 34px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    &__row {
+        text-align: center;
+        color: var(--main-white);
+
+        &--colors {
+            text-align: center;
+            background-image: url(../../resources/images/heroBackground.jpg);
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &__btn {
+
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin-top: 16px;
+        font-size: 16px;
+        background-color: var(--second-purple);
+        color: var(--main-black);
+        align-self: center;
+       
+    }
+
+}
+
+@media(max-width:550px) {
+
+    .together {
+     
+        font-size: 24px;
+       
+        &__content {
+          
+            width: 80%;
+        }
+    }
+}

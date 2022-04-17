@@ -1,0 +1,76 @@
+.relatedWorks{
+
+    padding: 120px 2.5rem 120px 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-black);
+
+    &__title{
+        font-family: ttTravelsMed;
+        font-size: 60px;
+        width: 45%;
+        color: var(--second-yellow);
+    }
+}
+.workCard:nth-child(2n){
+    //border: solid 1px blue;
+    align-self: flex-end;
+}
+.workCard{
+    width: 45%;
+    
+    &__img{
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: -5%;
+    }
+    &__title{
+        color:var(--main-white);
+        font-family: ttTravelsMed;
+        font-size: 34px;
+    }
+    &__labels{
+        color:var(--main-white);
+    }
+}
+
+@media(max-width:550px) {
+
+    .relatedWorks{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       padding: 60px 1.5rem 60px 1.5rem;
+       
+    
+        &__title{
+            
+            font-size: 36px;
+           width: 80%;
+            text-align: center;
+           
+        }
+    }
+
+    .workCard:nth-child(2n){
+        //border: solid 1px blue;
+        align-self: center;
+    }
+
+    .workCard{
+        width: 100%;
+        margin-bottom: 24px;
+        
+        &__img{
+           
+        }
+        &__title{
+            
+            font-size: 24px;
+        }
+        &__labels{
+            
+        }
+    }
+    
+}

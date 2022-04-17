@@ -1,0 +1,36 @@
+.skills{
+    position: relative;
+    overflow: hidden;
+   
+    height: 40vh;
+    &__imgContainer{
+        
+    }
+    &__img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    &__text{
+        position: absolute;
+        justify-content: center;
+        white-space: nowrap;
+        font-size: 60px;
+        text-overflow: ellipsis;
+        width: auto;
+       
+        top: 35%;
+    }
+}
+
+@media(max-width:550px) {
+
+    
+    .skills{
+        height: 24vh;
+        &__text{
+            font-size: 32px;
+        }
+
+    }
+}

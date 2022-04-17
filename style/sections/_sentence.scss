@@ -1,0 +1,43 @@
+.sentence{
+    background-color: var(--main-black);
+    padding-top: 64px;
+    padding-left: 2.5rem;
+    padding-bottom: 64px;
+   
+  
+    &__text{
+       color: var(--main-white); 
+       text-transform: uppercase;
+       font-weight: 200;
+       font-size: 60px;
+       width: 80%;
+     
+       
+       span{
+           color: var(--second-orange);
+       }
+       a{
+        background-image: url(../../resources/images/heroBackground.jpg);
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       }
+    }
+    
+}
+
+@media(max-width:550px) {
+
+    
+    .sentence{
+       
+        padding-left: 1.5rem;
+        padding-bottom: 64px;
+       
+      
+        &__text{
+            font-size: 32px;
+        }
+
+    }
+}
