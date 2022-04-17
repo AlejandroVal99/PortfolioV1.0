@@ -8,17 +8,17 @@
 
 @font-face {
   font-family: ttTravelsReg;
-  src: url("../../resources/font/TTTravelsNextRegular.ttf") format("truetype");
+  src: url("../font/TT TravelsNextRegular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ttTravelsBold;
-  src: url("../../resources/font/TTTravelsNextBold.ttf") format("truetype");
+  src: url("../font/TT TravelsNextBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ttTravelsMed;
-  src: url("../../resources/font/TTTravelsNextMedium.ttf") format("truetype");
+  src: url("../font/TT TravelsNextMed.ttf") format("truetype");
 }
 
 * {
