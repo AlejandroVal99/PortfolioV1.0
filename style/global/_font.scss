@@ -1,14 +1,14 @@
 @font-face {
     font-family: ttTravelsReg;
-    src:url('../font/TT\ TravelsNextRegular.ttf') format('truetype');
+    src:url('../../resources/font/TTTravelsNextRegular.ttf') format('truetype');
 }
 @font-face {
     font-family: ttTravelsBold;
-    src:url('../font/TT\ TravelsNextBold.ttf')  format('truetype');
+    src:url('../../resources/font/TTTravelsNextBold.ttf')  format('truetype');
 }
 @font-face {
     font-family: ttTravelsMed;
-    src:url('../font/TT\ TravelsNextMed.ttf') format('truetype');
+    src:url('../../resources/font/TTTravelsNextMedium.ttf') format('truetype');
 }
 *{
     font-family: ttTravelsReg;
