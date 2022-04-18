@@ -16,6 +16,7 @@
   src: url("../resources/font/TTTravelsNextBold.ttf") format("truetype");
 }
 
+
 @font-face {
   font-family: ttTravelsMed;
   src: url("../resources/font/TTTravelsNextMedium.ttf") format("truetype");
