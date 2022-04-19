@@ -16,7 +16,6 @@
   src: url("../resources/font/TTTravelsNextBold.ttf") format("truetype");
 }
 
-
 @font-face {
   font-family: ttTravelsMed;
   src: url("../resources/font/TTTravelsNextMedium.ttf") format("truetype");
@@ -242,6 +241,7 @@ html {
 .hero__content {
   position: absolute;
   width: 100%;
+  max-height: 850px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
